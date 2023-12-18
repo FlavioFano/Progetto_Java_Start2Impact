@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Objects;
 
 public class TripDaoImpl implements TripDao {
-    private final String CSV_FILE_PATH="src/File/viaggi.csv";
+    private final String CSV_FILE_PATH = "src/File/viaggi.csv";
     @Override
     public List<Trip> findAll() {
         List<Trip> trips = new ArrayList<>();
